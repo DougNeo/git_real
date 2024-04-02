@@ -7,6 +7,6 @@ defmodule Client do
   plug Tesla.Middleware.JSON
 
   def user_repos(id) do
-    get("/repos/realseguroviagem/srvkit/pulls/#{id}/reviews")
+    get("rota aqui")
   end
 end
